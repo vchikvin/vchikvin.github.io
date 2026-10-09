@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Пробный сайт</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #FBFBFC;
+      --text: #1B2430;
+      --muted: #5B6673;
+      --accent: #2F6F7E;
+      --rule: #DDE2E7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "PT Serif", Georgia, serif;
+      font-size: 1.125rem;
+      line-height: 1.7;
+    }
+    main {
+      max-width: 38rem;
+      margin: 0 auto;
+      padding: 4rem 1.25rem 5rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      line-height: 1.2;
+      margin: 0 0 0.5rem;
+      border-left: 4px solid var(--accent);
+      padding-left: 1rem;
+    }
+    .lead {
+      color: var(--muted);
+      font-style: italic;
+      margin: 0 0 2.5rem;
+      padding-left: 1.25rem;
+    }
+    h2 {
+      font-size: 1.35rem;
+      margin: 2.5rem 0 0.5rem;
+    }
+    p { margin: 0 0 1rem; }
+    a { color: var(--accent); }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Мой пробный сайт</h1>
+    <p class="lead">Если вы видите эту страницу, сайт опубликован и работает.</p>
+
+    <h2>О чём этот сайт</h2>
+    <p>Замените этот абзац своим текстом. Каждый новый абзац оформляется так же: между тегами &lt;p&gt; и &lt;/p&gt;.</p>
+
+    <h2>Второй раздел</h2>
+    <p>Подзаголовки пишутся между тегами &lt;h2&gt; и &lt;/h2&gt;. Ссылка выглядит так: <a href="https://github.com">GitHub</a>.</p>
+
+    <footer>Последнее обновление: октябрь 2026</footer>
+  </main>
+</body>
+</html>
